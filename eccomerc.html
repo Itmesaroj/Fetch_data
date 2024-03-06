@@ -138,7 +138,7 @@
     } 
     let serachdata=async()=>{
         let searchTerm = document.getElementById("search").value.toLowerCase();
-        let filteredProducts = alldata.filter(product =>
+        let filteredProducts =alldata.filter(product =>
                 product.title.toLowerCase().includes(searchTerm)
             );
         if(filteredProducts.length==0){
